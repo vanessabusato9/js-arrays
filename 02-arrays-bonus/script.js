@@ -24,6 +24,7 @@ const edIndex = teachers.indexOf('Ed'); //Trova l'indice di Ed
 if(edIndex !== -5) {
 teachers.splice(edIndex, 5);
 }
+console.log(edIndex);
 console.log(teachers);
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
