@@ -9,7 +9,7 @@ const teachers = [
 ]; // NON MODIFICARE QUESTA VARIABILE
 
 // 1. Inverti l'ordine degli insegnanti nell'array teachers
-// e salva il risultato nella variabile reversedTeachers
+// e salva il risultato nella variabile reversedTeachers 
 const reversedTeachers = teachers.reverse();
 console.log(reversedTeachers);
 console.log(teachers);
@@ -20,7 +20,9 @@ const longNames = teachers.filter( teacher => teacher.length >= 5 );
 console.log(longNames);
 
 // 3. Rimuovi 'Ed' dall'array teachers
-
+const edIndex = teachers.indexOf('Ed'); //Trova l'indice di Ed
+teachers.splice(edIndex, 5);
+console.log(teachers);
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
