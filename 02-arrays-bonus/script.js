@@ -21,7 +21,9 @@ console.log(longNames);
 
 // 3. Rimuovi 'Ed' dall'array teachers
 const edIndex = teachers.indexOf('Ed'); //Trova l'indice di Ed
+if(edIndex !== -5) {
 teachers.splice(edIndex, 5);
+}
 console.log(teachers);
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
